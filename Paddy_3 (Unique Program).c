@@ -1,5 +1,5 @@
 /*
-Mr. Venu Mohan is a great and humble educationalist. 
+Mr. Venu Mohan is a great and humble educationalist. .
 He always encourages students to grow in all aspects. 
 In his school he made it as a custom that one who 
 gets top position in 9th final examinations hoists the 
