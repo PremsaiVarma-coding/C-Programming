@@ -1,0 +1,43 @@
+#include<stdio.h>
+int main()
+{
+    int tm[100],i,j,max=0,smax=0,k;
+    for(i=0;;i++)
+    {
+        scanf("%d",&tm[i]);
+        if(tm[i]==0)
+        {
+            break;
+        }
+        
+    }
+    for(i=0;;i++)
+    {
+        
+        if(tm[i]==0)
+        {
+            break;
+        }
+        if(tm[i]>max)
+        {
+            max=tm[i];
+        }
+    }
+    
+     for(i=0;;i++)
+    {
+        
+        if(tm[i]==0)
+        {
+            break;
+        }
+        if(tm[i]!=max&&tm[i]>smax)
+        {
+            smax=tm[i];
+            k=i;
+        }
+    }
+    
+    printf("%d",k);
+    
+}
